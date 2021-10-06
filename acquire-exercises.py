@@ -96,7 +96,6 @@ stores.head()
 #---------------------Sales Data...
 base_url
 #output: 'https://python.zgulde.net'
-
 #get the intial response for the sales data:
 response = requests.get(base_url + '/api/v1/sales')
 
